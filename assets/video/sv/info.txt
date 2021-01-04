@@ -1,0 +1,3 @@
+Kan inte ha ÅÄÖ i namnet
+
+.mov eller .mp4. Har inte fått mp4 att fungera
