@@ -11,7 +11,9 @@ import 'CustomVideoPlayer.dart';
 import 'virtual_keyboard.dart';
 
 List<GameObject> localGameList = GameObjectFactory.buildAnimalsList();
+
 enum MatchWith { emoji, letters }
+
 List<GameObject> targetObject;
 GameObject prevObject;
 List<GameObject> choices;
@@ -120,7 +122,7 @@ class FindTheSameState extends State<FindTheSame> {
         children: <Widget>[
           Text(
             text,
-            style: Theme.of(context).textTheme.display1,
+            // style: Theme.of(context).textTheme.display1,
           ),
           SwitchListTile(
             title: Text(
